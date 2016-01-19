@@ -68,6 +68,7 @@
     <!-- From: file:/C:/Users/littleBIG/Documents/AndroidStudioProjects/XYZReader/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="dkgray">#424242</color>
+    <color name="dorange_100">#FFCCBC</color>
     <color name="dorange_500">#FF5722</color>
     <color name="dorange_700">#E64A19</color>
     <!-- From: file:/C:/Users/littleBIG/Documents/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
@@ -274,7 +275,7 @@
     <dimen name="detail_inner_horiz_margin">16dp</dimen>
     <dimen name="detail_metabar_title_bottom_padding">4dp</dimen>
     <dimen name="detail_metabar_vert_padding">16dp</dimen>
-    <dimen name="detail_photo_height">304dp</dimen>
+    <dimen name="detail_photo_height">204dp</dimen>
     <!-- From: file:/C:/Users/littleBIG/Documents/AndroidStudioProjects/XYZReader/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="detail_title_text_size">32sp</dimen>
@@ -393,9 +394,7 @@
 
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
-    <style name="AppTheme.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
+    <style name="AppTheme.Detail"/>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <!-- From: file:/C:/Users/littleBIG/Documents/AndroidStudioProjects/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
     <eat-comment/>

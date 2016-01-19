@@ -23,10 +23,7 @@
         <item name = "colorAccent">@color/blue_A200</item>
 
     </style>
-
-    <style name="AppTheme.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
+    <style name="AppTheme.Detail"></style>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 </resources>
