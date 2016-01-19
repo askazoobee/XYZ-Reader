@@ -12,8 +12,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:behavior_overlapTop="96dp"
-        android:elevation="4dp"
-
+        android:elevation="2dp"
         >
 
         <com.example.xyzreader.ui.MaxWidthLinearLayout
@@ -27,7 +26,7 @@
             android:layout_gravity="center_horizontal"
             android:maxWidth="@dimen/detail_card_max_width"
             android:background="#fff"
-            android:elevation="2dp">
+            android:elevation="4dp">
 
             <LinearLayout
                 android:id="@+id/meta_bar"
@@ -120,8 +119,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-
-
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         android:layout_width="wrap_content"
@@ -132,7 +129,6 @@
         android:contentDescription="@string/action_share"
         android:visibility="invisible"
         app:layout_behavior="com.example.xyzreader.ui.ScrollAwareFABBehavior"
-        android:elevation="6dp"
         />
 
 
